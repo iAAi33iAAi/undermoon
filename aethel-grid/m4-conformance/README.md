@@ -17,7 +17,7 @@ The corpus contains integer-only numeric fields. No floating-point value is admi
 
 ## Important boundary
 
-This is a golden-replay gate, not a proof that an arbitrary Rust implementation derives the four outputs from raw inputs. The next Level-4 step is to run the same corpus through the normative Rust execution engine and compare its generated state, metric, decision, preimage bytes, and digest against this corpus. A hard mismatch is a failure.
+This now verifies raw-input -> result_state for the four supplied vectors, including the frozen rotation law and integer truncation. It remains a golden gate rather than full Level-4 proof because the exact normative u_metric equation and complete decision partition are still not present in the available specification. The normative Rust execution engine must supply those next; its generated metric, decision, preimage bytes, and digest must match the corpus exactly. A hard mismatch is a failure.
 
 ## Run
 
