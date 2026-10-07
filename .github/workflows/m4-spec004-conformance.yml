@@ -1,0 +1,18 @@
+name: M4 SPEC-004 v0.3_RIGOR Conformance
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  m4-conformance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Run M4 golden corpus
+        run: cargo test --manifest-path aethel-grid/m4-conformance/Cargo.toml --verbose
+      - name: Execute M4 golden runner
+        run: cargo run --manifest-path aethel-grid/m4-conformance/Cargo.toml --quiet
