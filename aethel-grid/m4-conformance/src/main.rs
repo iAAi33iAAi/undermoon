@@ -2,7 +2,7 @@ use serde::{Deserialize, Serialize};
 use sha2::{Digest, Sha256};
 use std::{fs, path::Path};
 
-const CORPUS_PATH: &str = "../golden_corpus.json";
+const CORPUS_PATH: &str = "golden_corpus.json";
 
 const Q: i128 = 1_000_000;
 const I64_MIN: i128 = i64::MIN as i128;
