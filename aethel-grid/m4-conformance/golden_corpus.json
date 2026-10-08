@@ -17,7 +17,7 @@
       "u_metric": 49242,
       "decision": "PROCEED"
     },
-    "audit_preimage": "{"spec_version":"SPEC-004:v0.3_RIGOR","prev_state_hash":"0000000000000000000000000000000000000000000000000000000000000000","timestamp":"2026-10-07T12:00:00Z","input_bundle":{"evidence":[1000000,1000000,1000000,1000000,1000000,1000000],"density":[1000000,1000000,1000000,1000000,1000000,1000000],"source_id":"genesis-node-001"},"operator":"caios-kernel-01","operator_version":"3.6.9","applied_transforms":["none"],"result_state":[1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000],"u_metric":49242,"decision":"PROCEED"}",
+    "audit_preimage": \"{\"spec_version\":\"SPEC-004:v0.3_RIGOR\",\"prev_state_hash\":\"0000000000000000000000000000000000000000000000000000000000000000\",\"timestamp\":\"2026-10-07T12:00:00Z\",\"input_bundle\":{\"evidence\":[1000000,1000000,1000000,1000000,1000000,1000000],\"density\":[1000000,1000000,1000000,1000000,1000000,1000000],\"source_id\":\"genesis-node-001\"},\"operator\":\"caios-kernel-01\",\"operator_version\":\"3.6.9\",\"applied_transforms\":[\"none\"],\"result_state\":[1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000,1000000],\"u_metric\":49242,\"decision\":\"PROCEED\"}",
     "expected_sha256": "7083ec600b9b46018900edfcff2f303427bd4ae1cb680ffcc52a4bc236224e40"
   },
   {
@@ -38,7 +38,7 @@
       "u_metric": 117047,
       "decision": "REVIEW"
     },
-    "audit_preimage": "{"spec_version":"SPEC-004:v0.3_RIGOR","prev_state_hash":"0000000000000000000000000000000000000000000000000000000000000000","timestamp":"2026-10-07T12:00:00Z","input_bundle":{"evidence":[2500000,3000000,1000000,1000000,500000,1000000],"density":[800000,700000,1000000,1000000,900000,950000],"source_id":"genesis-node-001"},"operator":"caios-kernel-01","operator_version":"3.6.9","applied_transforms":["rotate_d1_45"],"result_state":[800000,2500000,-1626346,2616295,1000000,1000000,1000000,1000000,900000,500000,950000,1000000],"u_metric":117047,"decision":"REVIEW"}",
+    "audit_preimage": \"{\"spec_version\":\"SPEC-004:v0.3_RIGOR\",\"prev_state_hash\":\"0000000000000000000000000000000000000000000000000000000000000000\",\"timestamp\":\"2026-10-07T12:00:00Z\",\"input_bundle\":{\"evidence\":[2500000,3000000,1000000,1000000,500000,1000000],\"density\":[800000,700000,1000000,1000000,900000,950000],\"source_id\":\"genesis-node-001\"},\"operator\":\"caios-kernel-01\",\"operator_version\":\"3.6.9\",\"applied_transforms\":[\"rotate_d1_45\"],\"result_state\":[800000,2500000,-1626346,2616295,1000000,1000000,1000000,1000000,900000,500000,950000,1000000],\"u_metric\":117047,\"decision\":\"REVIEW\"}",
     "expected_sha256": "8d030fbb98bbe9c586612e1b19a5f58a7df6d7cc8a456b0cbd54f9a12a609610"
   },
   {
@@ -59,7 +59,7 @@
       "u_metric": 955581,
       "decision": "BLOCK"
     },
-    "audit_preimage": "{"spec_version":"SPEC-004:v0.3_RIGOR","prev_state_hash":"0000000000000000000000000000000000000000000000000000000000000000","timestamp":"2026-10-07T12:00:00Z","input_bundle":{"evidence":[10000000,12000000,100000,100000,10000,500000],"density":[200000,100000,500000,500000,100000,200000],"source_id":"genesis-node-001"},"operator":"caios-kernel-01","operator_version":"3.6.9","applied_transforms":["none"],"result_state":[200000,10000000,100000,12000000,500000,100000,500000,100000,100000,10000,200000,500000],"u_metric":955581,"decision":"BLOCK"}",
+    "audit_preimage": \"{\"spec_version\":\"SPEC-004:v0.3_RIGOR\",\"prev_state_hash\":\"0000000000000000000000000000000000000000000000000000000000000000\",\"timestamp\":\"2026-10-07T12:00:00Z\",\"input_bundle\":{\"evidence\":[10000000,12000000,100000,100000,10000,500000],\"density\":[200000,100000,500000,500000,100000,200000],\"source_id\":\"genesis-node-001\"},\"operator\":\"caios-kernel-01\",\"operator_version\":\"3.6.9\",\"applied_transforms\":[\"none\"],\"result_state\":[200000,10000000,100000,12000000,500000,100000,500000,100000,100000,10000,200000,500000],\"u_metric\":955581,\"decision\":\"BLOCK\"}",
     "expected_sha256": "9e0a399659159243ad579ad9409b77ed27be05dd25f9e4ad3d36f23acc451a5d"
   },
   {
@@ -80,7 +80,7 @@
       "u_metric": 49242,
       "decision": "PROCEED"
     },
-    "audit_preimage": "{"spec_version":"SPEC-004:v0.3_RIGOR","prev_state_hash":"0000000000000000000000000000000000000000000000000000000000000000","timestamp":"2026-10-07T12:00:00Z","input_bundle":{"evidence":[1000000,4850000,48000000,15000000,10000,1000000],"density":[900000,800000,1000000,1000000,1000000,990000],"source_id":"genesis-node-001-dwx-scale"},"operator":"caios-kernel-01","operator_version":"3.6.9","applied_transforms":["rotate_d1_15"],"result_state":[900000,1000000,-482531,4891796,1000000,1000000,1000000,1000000,1000000,10000,990000,1000000],"u_metric":49242,"decision":"PROCEED"}",
+    "audit_preimage": \"{\"spec_version\":\"SPEC-004:v0.3_RIGOR\",\"prev_state_hash\":\"0000000000000000000000000000000000000000000000000000000000000000\",\"timestamp\":\"2026-10-07T12:00:00Z\",\"input_bundle\":{\"evidence\":[1000000,4850000,48000000,15000000,10000,1000000],\"density\":[900000,800000,1000000,1000000,1000000,990000],\"source_id\":\"genesis-node-001-dwx-scale\"},\"operator\":\"caios-kernel-01\",\"operator_version\":\"3.6.9\",\"applied_transforms\":[\"rotate_d1_15\"],\"result_state\":[900000,1000000,-482531,4891796,1000000,1000000,1000000,1000000,1000000,10000,990000,1000000],\"u_metric\":49242,\"decision\":\"PROCEED\"}",
     "expected_sha256": "a53d84bd0d3c027dd1d9abab0d7456dc3d45cec51a15235aee97a01c93a16029"
   }
 ]
